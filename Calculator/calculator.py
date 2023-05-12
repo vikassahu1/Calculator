@@ -15,9 +15,6 @@ def click(event):
                 value = "Error"
         scvalue.set(value)
         screen.update()
-    # elif text == "sin" or text == "cos" or text == "tan":
-    #     scvalue.set(scvalue.get()+ str(math.sin(math.radians(text))))
-    #     screen.update()
 
     elif text == "C":
         scvalue.set("")
